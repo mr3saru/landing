@@ -15,7 +15,7 @@
 
   --font-light: 300;
   --font-normal: 400;
-  --font-bold: 600;
+  --font-bold: 500;
 
   --spacing-mini: 0.2rem;
   --spacing-small: 0.4rem;
@@ -32,4 +32,6 @@
 
   --transition-default: 0.3s ease-in-out;
   --transition-fast: 0.1s ease-in-out;
+
+  --shadow-basic: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
