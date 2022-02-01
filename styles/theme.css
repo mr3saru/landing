@@ -1,0 +1,35 @@
+:root {
+  --primary: #e45876;
+  --secondary: #263640;
+  --gray: #444444;
+  --white: #ffffff;
+  --black: #000000;
+
+  --font-xxsmall: 0.4rem;
+  --font-xsmall: 0.8rem;
+  --font-small: 1.2rem;
+  --font-medium: 1.6rem;
+  --font-large: 2rem;
+  --font-xlarge: 2.4rem;
+  --font-xxlarge: 2.8rem;
+
+  --font-light: 300;
+  --font-normal: 400;
+  --font-bold: 600;
+
+  --spacing-mini: 0.2rem;
+  --spacing-small: 0.4rem;
+  --spacing-compact: 0.8rem;
+  --spacing-medium: 1.6rem;
+  --spacing-large: 3.2rem;
+  --spacing-huge: 6.4rem;
+  --spacing-giant: 12.8rem;
+
+  --layer-base: 10;
+  --layer-menu: 20;
+  --layer-overlay: 30;
+  --layer-modal: 40;
+
+  --transition-default: 0.3s ease-in-out;
+  --transition-fast: 0.1s ease-in-out;
+}
