@@ -5,6 +5,10 @@ body {
   font-size: 62.5%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 a {
   color: inherit;
   text-decoration: none;

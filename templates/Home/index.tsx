@@ -1,10 +1,11 @@
 import Header from '@components/header/Default'
-import Logo from '@icons/Logo'
+import Welcome from './Welcome'
 
 export const Home = () => {
   return (
     <main>
       <Header />
+      <Welcome />
     </main>
   )
 }

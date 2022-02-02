@@ -4,6 +4,9 @@
   --gray: #444444;
   --white: #ffffff;
   --black: #000000;
+  --light: #73c6fa;
+
+  --max-width: 120rem;
 
   --font-xxsmall: 0.4rem;
   --font-xsmall: 0.8rem;
