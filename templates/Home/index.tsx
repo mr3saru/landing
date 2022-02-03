@@ -1,4 +1,5 @@
 import Header from '@components/header/Default'
+import About from './About'
 import Welcome from './Welcome'
 
 export const Home = () => {
@@ -6,6 +7,7 @@ export const Home = () => {
     <main>
       <Header />
       <Welcome />
+      <About />
     </main>
   )
 }
