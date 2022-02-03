@@ -1,3 +1,4 @@
+import Banner from '@components/container/Banner'
 import Wrapper from '@components/container/Wrapper'
 import Spinner from '@components/spinner/Default'
 import Reactive from '@icons/Reactive'
@@ -10,34 +11,7 @@ const Welcome = () => {
         .wrapper-top {
           margin-top: 12rem;
         }
-        .wrapper-responsive {
-          width: 100%;
-          height: 100%;
-          display: grid;
-          grid-template-columns: 1fr;
-          align-items: center;
-          grid-gap: 5rem;
-        }
 
-        @media (min-width: 999px) {
-          .wrapper-responsive {
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 20rem;
-          }
-        }
-
-        .content-text {
-          font-size: var(--font-xlarge);
-          font-weight: var(--font-light);
-          color: var(--gray);
-        }
-
-        .content-text b {
-          font-weight: var(--font-bold);
-        }
-        .content-text b a {
-          color: var(--primary);
-        }
         .content-image {
           position: relative;
         }
@@ -74,7 +48,7 @@ const Welcome = () => {
         }
       `}</style>
       <Wrapper>
-        <div className="wrapper-responsive">
+        <Banner>
           <div className="content-image">
             <SoftwareHouse />
             <div className="spinner spinner-light">
@@ -94,7 +68,7 @@ const Welcome = () => {
             </div>
           </div>
 
-          <div className="content-text">
+          <div>
             <p>
               Welcome to <b>Mr. Saru! </b>
             </p>
@@ -111,7 +85,7 @@ const Welcome = () => {
               </b>
             </p>
           </div>
-        </div>
+        </Banner>
       </Wrapper>
     </div>
   )
