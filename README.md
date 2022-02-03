@@ -1,5 +1,7 @@
 ## Mr Saru - Landing page
 
+![mr3saru](/docs/mr3saru.png)
+
 ## Project stack:
 
 - [NextJS](https://nextjs.org/)
@@ -10,6 +12,10 @@
 - [Husky](https://github.com/typicode/husky)
 
 ## Getting Started
+
+```bash
+git clone https://github.com/mr3saru/landing.git
+```
 
 ```bash
 yarn install
@@ -50,11 +56,21 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Git flow
 
+Checkout to wip and rebase it
+
+```bash
+git checkout wip
+git fetch origin
+git rebase origin/wip
+```
+
 Create a new branch
 
 ```bash
 git checkout -b MY-BRANCH-NAME
 ```
+
+Make your changes...
 
 Submit a Pull Request
 
