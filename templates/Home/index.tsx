@@ -4,6 +4,7 @@ import Tech from './Tech'
 import Values from './Values'
 import Welcome from './Welcome'
 import Method from './Method'
+import Industries from './Industries'
 import Contact from './Contact'
 
 export const Home = () => {
@@ -15,6 +16,7 @@ export const Home = () => {
       <Tech />
       <Values />
       <Method />
+      <Industries />
       <Contact />
     </main>
   )

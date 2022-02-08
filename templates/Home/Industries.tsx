@@ -1,13 +1,11 @@
 import Wrapper from '@components/container/Wrapper'
 import Spinner from '@components/spinner/Default'
-import Clock from '@icons/Clock'
+import Building from '@icons/Building'
 import Reactive from '@icons/Reactive'
-import Form from '@components/form/Form'
 import Title from '@components/heading/Title'
-import Primary from '@components/button/Primary'
 import Cubes from '@icons/Cubes'
 
-const Contact = () => {
+const Industries = () => {
   return (
     <div className="wrapper-top" id="home">
       <style jsx>{`
@@ -74,22 +72,22 @@ const Contact = () => {
           }
         }
 
-        .spinner-secondary {
+        .spinner-primary {
           top: -3rem;
           right: -1rem;
         }
 
-        .spinner-light {
+        .spinner-secondary {
           top: 2rem;
           left: -3rem;
         }
 
-        .spinner-primary {
+        .spinner-light {
           bottom: -2rem;
           right: 8rem;
         }
 
-        #pricing {
+        #industries {
           margin-top: 12rem;
         }
 
@@ -99,12 +97,12 @@ const Contact = () => {
         }
       `}</style>
       <div className="title-area">
-        <Title>Pricing</Title>
+        <Title>Industries</Title>
       </div>
       <Wrapper>
-        <div className="wrapper-responsive" id="pricing">
+        <div className="wrapper-responsive" id="industries">
           <div className="content-image">
-            <Clock></Clock>
+            <Building />
             <div className="spinner spinner-light">
               <Spinner speed={12}>
                 <Reactive color="light" />
@@ -125,11 +123,16 @@ const Contact = () => {
             <div className="cube">
               <Cubes />
             </div>
-            <span className="form-title">
-              Our price depends on the size of the project. We will discuss it
-              before kicking it off!
-            </span>
-            <Form />
+            <p>
+              <b>Mr. Saru&#39;s team</b> has experience across multiple
+              industries in a variety of countries: <b>Brazil, China, UK</b> and{' '}
+              <b>New Zealand</b>.
+            </p>
+            <p>
+              Banking, Blockchain, Cloud File Management Communication,
+              Corporate HR, E-commerce, Fleet Management, Task Management,
+              Software Factory.
+            </p>
           </div>
         </div>
       </Wrapper>
@@ -137,4 +140,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Industries
