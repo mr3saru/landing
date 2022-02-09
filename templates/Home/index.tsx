@@ -12,6 +12,7 @@ export const Home = () => {
       <About />
       <Tech />
       <Values />
+      <h1>ok</h1>
     </main>
   )
 }
