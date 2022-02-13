@@ -17,17 +17,29 @@ const Item = ({ url, children }: ItemProps) => {
             height: 100%;
             width: 100%;
           }
-          a {
-            border-bottom: 5px solid transparent;
-            transition: var(--transition-default);
-          }
-          a:hover {
-            border-bottom: 5px solid var(--primary);
-          }
+
           span {
+            transition: var(--transition-default);
             font-size: var(--font-large);
+            color: var(--black);
+            font-weight: var(--font-bold);
+          }
+          span:hover {
             color: var(--white);
-            font-weight: var(--font-light);
+          }
+          @media (min-width: 999px) {
+            a {
+              border-bottom: 5px solid transparent;
+              transition: var(--transition-default);
+            }
+            a:hover {
+              border-bottom: 5px solid var(--primary);
+            }
+            span {
+              font-size: var(--font-large);
+              color: var(--white);
+              font-weight: var(--font-light);
+            }
           }
         `}</style>
         <span>{children}</span>
