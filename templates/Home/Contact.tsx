@@ -4,7 +4,6 @@ import Clock from '@icons/Clock'
 import Reactive from '@icons/Reactive'
 import Form from '@components/form/Form'
 import Title from '@components/heading/Title'
-import Primary from '@components/button/Primary'
 import Cubes from '@icons/Cubes'
 
 const Contact = () => {
