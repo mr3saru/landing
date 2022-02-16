@@ -1,3 +1,4 @@
+import Footer from '@components/footer/Footer'
 import Header from '@components/header/Default'
 import About from './About'
 import Tech from './Tech'
@@ -18,6 +19,7 @@ export const Home = () => {
       <Method />
       <Industries />
       <Contact />
+      <Footer />
     </main>
   )
 }
