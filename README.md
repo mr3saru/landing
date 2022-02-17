@@ -13,13 +13,26 @@
 
 ## Getting Started
 
+clone the repo:
+
 ```bash
 git clone https://github.com/mr3saru/landing.git
 ```
 
+install dependencies:
+
 ```bash
 yarn install
 ```
+
+add environment variables:
+
+```
+NEXT_PUBLIC_BASE_URL=
+API_CONTACT_FORM_URL=
+```
+
+run the server:
 
 ```bash
 yarn dev
