@@ -7,7 +7,7 @@ import Cubes from '@icons/Cubes'
 
 const Industries = () => {
   return (
-    <div className="wrapper-top" id="home">
+    <div className="wrapper-top" id="services">
       <style jsx>{`
         .wrapper-top {
           margin-top: 12rem;
