@@ -8,7 +8,7 @@ import Reactive from '@icons/Reactive'
 
 const Values = () => {
   return (
-    <div className="wrapper-top" id="method">
+    <div className="wrapper-top" id="projects">
       <style jsx>{`
         .wrapper-top {
           margin-top: 5rem;
@@ -125,11 +125,6 @@ const Values = () => {
             </p>
             <br />
             <br />
-            <p>
-              <b>
-                <a href="#">[I want to get in touch with Mr. Saru!]</a>
-              </b>
-            </p>
           </div>
         </Banner>
       </Wrapper>

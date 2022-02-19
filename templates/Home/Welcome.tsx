@@ -3,6 +3,8 @@ import Wrapper from '@components/container/Wrapper'
 import Spinner from '@components/spinner/Default'
 import Reactive from '@icons/Reactive'
 import SoftwareHouse from '@icons/SoftwareHouse'
+import Link from 'next/link'
+import Primary from '@components/button/Primary'
 
 const Welcome = () => {
   return (
@@ -46,6 +48,14 @@ const Welcome = () => {
           bottom: -8rem;
           right: 8rem;
         }
+
+        // Welcome text
+        .btn-text {
+          font-size: var(--font-medium);
+        }
+        .welcome-text {
+          margin-bottom: var(--spacing-medium);
+        }
       `}</style>
       <Wrapper>
         <Banner>
@@ -67,13 +77,12 @@ const Welcome = () => {
               </Spinner>
             </div>
           </div>
-
           <div>
             <p>
               Welcome to <b>Mr. Saru! </b>
             </p>
             <br />
-            <p>
+            <p className="welcome-text">
               We are a <b>software house</b> company. We offer agile and tailor
               made digital solutions to our customers. Our main goal is to
               delight our customers delivering scalable and lean solutions.
@@ -81,7 +90,13 @@ const Welcome = () => {
             <br />
             <p>
               <b>
-                <a href="#">[Click here to book a meeting]</a>
+                <Link href="/">
+                  <Primary>
+                    <span className="btn-text">
+                      Click here to book a meeting
+                    </span>
+                  </Primary>
+                </Link>
               </b>
             </p>
           </div>

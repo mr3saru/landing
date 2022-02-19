@@ -25,11 +25,16 @@ const Form = () => {
         ::placeholder {
           color: var(--light-gray);
         }
+        .btn-text {
+          font-size: var(--font-medium);
+        }
       `}</style>
       <input placeholder="Name" type="text" required />
       <input placeholder="Email or phone" type="text" required />
       <textarea placeholder="Message" name="msg" id="msg" required></textarea>
-      <Primary>Send</Primary>
+      <Primary>
+        <span className="btn-text">Send</span>
+      </Primary>
     </form>
   )
 }
