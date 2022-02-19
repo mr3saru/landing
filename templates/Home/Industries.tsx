@@ -95,6 +95,10 @@ const Industries = () => {
           margin-bottom: 3rem;
           display: block;
         }
+
+        .industries-text {
+          margin-bottom: var(--spacing-medium);
+        }
       `}</style>
       <div className="title-area">
         <Title>Industries</Title>
@@ -123,9 +127,10 @@ const Industries = () => {
             <div className="cube">
               <Cubes />
             </div>
-            <p>
+            <p className="industries-text">
               <b>Mr. Saru&#39;s team</b> has experience across multiple
-              industries in a variety of countries: <b>Brazil, China, UK</b> and{' '}
+              industries in a variety of countries:{' '}
+              <b>Brazil, China, UK, Switzerland, India</b> and{' '}
               <b>New Zealand</b>.
             </p>
             <p>
