@@ -1,13 +1,34 @@
 html,
 body {
+  font-size: 62.5%;
+}
+
+* {
   font-family: 'Roboto', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+p {
+  font-size: var(--font-xlarge);
+  font-weight: var(--font-light);
+  color: var(--gray);
+}
+
+b {
+  font-weight: var(--font-bold);
+}
+
+p b a {
+  color: var(--primary);
 }
 
 ul,

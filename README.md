@@ -1,34 +1,100 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Mr Saru - Landing page
+
+![mr3saru](/docs/mr3saru.png)
+
+## Project stack:
+
+- [NextJS](https://nextjs.org/)
+- [Styled JSX](https://github.com/vercel/styled-jsx)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Prettier](https://prettier.io/)
+- [Eslint](https://eslint.org/)
+- [Husky](https://github.com/typicode/husky)
 
 ## Getting Started
 
-First, run the development server:
+clone the repo:
 
 ```bash
-npm run dev
-# or
+git clone https://github.com/mr3saru/landing.git
+```
+
+install dependencies:
+
+```bash
+yarn install
+```
+
+add environment variables:
+
+```
+NEXT_PUBLIC_BASE_URL=
+API_CONTACT_FORM_URL=
+```
+
+run the server:
+
+```bash
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Available commands
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- `dev`: run the application in development mode `localhost:3000`
+- `build`: create production version
+- `start`: run production version
+- `check`: check formatting on all components and pages
+- `format`: formats all components and pages
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Patterns
 
-## Learn More
+```
+/pages
+  _route system_
+/components
+  _reusable components_
+/styles
+  _global styles and theme_
+/utils
+  _utility functions_
+/templates
+  _page layout and modules_
+/icons
+  _svg exported icons_
+/docs
+  _documentation_
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Git flow
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Checkout to wip and rebase it
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+git checkout wip
+git fetch origin
+git rebase origin/wip
+```
 
-## Deploy on Vercel
+Create a new branch
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+git checkout -b MY-BRANCH-NAME
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Make your changes...
+
+Submit a Pull Request
+
+```bash
+git push origin MY-BRANCH-NAME
+```
+
+Aways compare or PR with `wip` branch
+
+![compare](/docs/github-compare.png)
+
+Click on submit button and you will see a new branch in the pull request
+
+Wait for approval or change request

@@ -17,6 +17,7 @@
     "baseUrl": ".",
     "paths": {
       "@pages/*": ["pages/*"],
+      "@public/*": ["public/*"],
       "@utils/*": ["utils/*"],
       "@icons/*": ["icons/*"],
       "@styles/*": ["styles/*"],
