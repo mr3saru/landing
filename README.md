@@ -52,49 +52,56 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ```
 /pages
-  _route system_
+  #route system
 /components
-  _reusable components_
+  #reusable components
 /styles
-  _global styles and theme_
+  #global styles and theme
 /utils
-  _utility functions_
+  #utility functions
 /templates
-  _page layout and modules_
+  #page layout and modules
 /icons
-  _svg exported icons_
+  #svg exported icons
 /docs
-  _documentation_
+  #documentation
 ```
 
 ## Git flow
 
-Checkout to wip and rebase it
+1. Checkout to wip get all the changes
 
 ```bash
 git checkout wip
 git fetch origin
-git rebase origin/wip
+git reset --hard origin/wip
 ```
 
-Create a new branch
+2. Create a new branch
 
 ```bash
 git checkout -b MY-BRANCH-NAME
 ```
 
-Make your changes...
+3. Make your changes...
 
-Submit a Pull Request
+4. Fech the wip branch and solve all conflicts
+
+```bash
+git fetch wip
+git rebase origin/wip
+```
+
+5. Submit a Pull Request
 
 ```bash
 git push origin MY-BRANCH-NAME
 ```
 
-Aways compare or PR with `wip` branch
+6. Acess the pull request link and compare the changes with the `wip` branch
 
 ![compare](/docs/github-compare.png)
 
-Click on submit button and you will see a new branch in the pull request
+7. Click on submit button and you will see a new branch in the pull request
 
-Wait for approval or change request
+8. Wait for approval or change request
