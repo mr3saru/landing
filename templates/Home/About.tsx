@@ -17,6 +17,8 @@ const About = () => {
           margin-bottom: 3rem;
           padding: var(--spacing-compact) var(--spacing-large);
           width: 100%;
+          display: flex;
+          justify-content: center;
         }
 
         .content-text,
