@@ -90,7 +90,7 @@ const Welcome = () => {
             <br />
             <p>
               <b>
-                <Link href="/">
+                <Link href="https://meetings.hubspot.com/mr-saru">
                   <Primary>
                     <span className="btn-text">
                       Click here to book a meeting
