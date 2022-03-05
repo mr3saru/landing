@@ -1,4 +1,4 @@
-import React, { FormEvent, useState } from 'react'
+import React, { FormEvent, useState, useEffect } from 'react'
 import Primary from '@components/button/Primary'
 
 type ValuesProps = {
@@ -9,16 +9,21 @@ type ValuesProps = {
 
 const SUCCESS_FEEDBACK = 'Your message has been sent!'
 const ERROR_FEEDBACK = 'Something is wrong. Please try again later.'
+const LOADING_FEEDBACK = 'Loading...'
 
 const Form = () => {
   const [values, setValues] = useState<ValuesProps>()
   const [feedback, setFeedback] = useState('')
 
+  const url = process.env.NEXT_PUBLIC_BASE_URL as string
+
+  useEffect(() => {
+    fetch(url + '/api/wakeup-form')
+  }, [url])
+
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault()
-    setFeedback('')
-
-    const url = process.env.NEXT_PUBLIC_BASE_URL as string
+    setFeedback(LOADING_FEEDBACK)
 
     fetch(url + '/api/submit-form', {
       method: 'POST',
@@ -33,7 +38,6 @@ const Form = () => {
       })
     })
       .then((response) => {
-        console.log(response)
         if (!!response?.ok) {
           setFeedback(SUCCESS_FEEDBACK)
         } else {
