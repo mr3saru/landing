@@ -119,17 +119,17 @@ const Footer = () => (
 
     <div className="socials-container">
       <div className="socials">
-        <Link href="/">
+        <Link href="https://www.linkedin.com/company/mrsaru/" passHref={true}>
           <a>
             <Linkedin />
           </a>
         </Link>
-        <Link href="/">
+        <Link href="https://www.instagram.com/mrsaruit/" passHref={true}>
           <a>
             <Instagram />
           </a>
         </Link>
-        <Link href="/">
+        <Link href="https://twitter.com/MrSaruit" passHref={true}>
           <a>
             <Twitter />
           </a>
