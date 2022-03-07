@@ -33,6 +33,7 @@
   --spacing-giant: 12.8rem;
 
   --layer-base: 10;
+  --layer-layout: 15;
   --layer-menu: 20;
   --layer-overlay: 30;
   --layer-modal: 40;
