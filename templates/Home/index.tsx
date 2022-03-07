@@ -10,7 +10,7 @@ import Contact from './Contact'
 
 export const Home = () => {
   return (
-    <main>
+    <main id="home">
       <Header isFixed />
       <Welcome />
       <About />
