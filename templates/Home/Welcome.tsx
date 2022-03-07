@@ -8,7 +8,7 @@ import Primary from '@components/button/Primary'
 
 const Welcome = () => {
   return (
-    <div className="wrapper-top" id="home">
+    <div className="wrapper-top">
       <style jsx>{`
         .wrapper-top {
           margin-top: 12rem;
@@ -49,7 +49,6 @@ const Welcome = () => {
           right: 8rem;
         }
 
-        // Welcome text
         .btn-text {
           font-size: var(--font-medium);
         }
