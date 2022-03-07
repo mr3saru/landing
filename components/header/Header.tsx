@@ -2,7 +2,11 @@ import Navbar from '@components/menu/Navbar'
 import Logo from '@icons/Logo'
 import Link from 'next/link'
 
-const Header = () => (
+type HeaderProps = {
+  isFixed?: boolean
+}
+
+const Header = ({ isFixed = false }: HeaderProps) => (
   <header>
     <style jsx>{`
       header {
@@ -15,6 +19,13 @@ const Header = () => (
         justify-content: space-between;
         width: 100%;
         box-shadow: var(--shadow-basic);
+
+        ${isFixed &&
+        `
+          position: sticky;
+          top: 0;
+          z-index: var(--layer-layout);
+        `}
       }
       a {
         width: 9rem;
