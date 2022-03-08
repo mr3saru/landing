@@ -71,6 +71,15 @@ const About = () => {
           top: 8rem;
           left: -5rem;
         }
+
+        .services-list {
+          margin: var(--spacing-large) 0;
+        }
+
+        .services-list li {
+          font-size: var(--font-xlarge);
+          margin-bottom: var(--spacing-compact);
+        }
       `}</style>
       <div className="title-area">
         <Title>What we offer</Title>
@@ -103,28 +112,20 @@ const About = () => {
               Our services portfolio ranges from UX Design and Consultancy to
               Software Development.
             </p>
-            <br />
-            <br />
-            <p>
-              <b>- UX Design and Consultancy</b>
-            </p>
-            <br />
-            <br />
-            <p>
-              <b>- Website development</b>
-            </p>
-            <br />
-            <br />
-            <p>
-              <b>- Migration of native apps to PWA</b>
-            </p>
-            <br />
-            <br />
-            <p>
-              <b>- Tailor made systems</b>
-            </p>
-            <br />
-            <br />
+            <ul className="services-list">
+              <li>
+                <b>• UX Design and Consultancy</b>
+              </li>
+              <li>
+                <b>• Website development</b>
+              </li>
+              <li>
+                <b>• Migration of native apps to PWA</b>
+              </li>
+              <li>
+                <b>• Tailor made systems</b>
+              </li>
+            </ul>
             <p>
               Get in contact with us to discuss your needs and we’ll find a
               solution that fits your budget and time. One of our team members
