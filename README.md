@@ -4,6 +4,7 @@
 
 ## Project stack:
 
+- [ReactJS](https://reactjs.org/)
 - [NextJS](https://nextjs.org/)
 - [Styled JSX](https://github.com/vercel/styled-jsx)
 - [TypeScript](https://www.typescriptlang.org/)
