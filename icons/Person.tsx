@@ -22,7 +22,7 @@ const Person = () => (
         fill="#F58A8A"
       />
     </g>
-    <g clip-path="url(#clip0_834_80)">
+    <g clipPath="url(#clip0_834_80)">
       <path
         d="M50.9031 191.733H49.3291V188.585C49.3291 184.242 45.8034 180.717 41.4592 180.717C37.1151 180.717 33.5894 184.242 33.5894 188.585V191.733H32.0154C30.284 191.733 28.8674 193.149 28.8674 194.88V210.617C28.8674 212.348 30.284 213.764 32.0154 213.764H50.9031C52.6344 213.764 54.051 212.348 54.051 210.617V194.88C54.051 193.149 52.6344 191.733 50.9031 191.733ZM41.4592 205.896C39.7279 205.896 38.3113 204.48 38.3113 202.749C38.3113 201.018 39.7279 199.601 41.4592 199.601C43.1906 199.601 44.6072 201.018 44.6072 202.749C44.6072 204.48 43.1906 205.896 41.4592 205.896ZM46.3385 191.733H36.5799V188.585C36.5799 185.894 38.7677 183.707 41.4592 183.707C44.1507 183.707 46.3385 185.894 46.3385 188.585V191.733Z"
         fill="white"
@@ -146,9 +146,9 @@ const Person = () => (
         width="400.363"
         height="184.911"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feColorMatrix
           in="SourceAlpha"
           type="matrix"
@@ -181,9 +181,9 @@ const Person = () => (
         width="66.7505"
         height="66.2949"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feColorMatrix
           in="SourceAlpha"
           type="matrix"
@@ -215,9 +215,9 @@ const Person = () => (
         width="66.7505"
         height="66.2949"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feColorMatrix
           in="SourceAlpha"
           type="matrix"
@@ -249,9 +249,9 @@ const Person = () => (
         width="66.7502"
         height="66.2949"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feColorMatrix
           in="SourceAlpha"
           type="matrix"
@@ -283,9 +283,9 @@ const Person = () => (
         width="66.7505"
         height="66.2949"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feColorMatrix
           in="SourceAlpha"
           type="matrix"

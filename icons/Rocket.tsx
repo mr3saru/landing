@@ -1,6 +1,6 @@
 const Rocket = () => (
   <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 294">
-    <g filter="url(#a)">
+    <g filter="url(#a_rocket)">
       <path
         d="M464.301 25.94c-39.383 1.143-66.45 23.81-104.881 29.236-37.083 5.225-77.539 1.396-110.942-12.198-20.077-8.173-37.417-19.311-57.437-27.532-20.039-8.222-44.635-13.384-66.043-8.019-29.317 7.347-39.682 29.194-49.383 47.654-7.543 14.333-15.979 28.064-30.84 39.105-15.673 11.643-29.495 24.735-36.33 40.196-21.69 49.105 53.22 102.356 112.559 122.946 52.5 18.189 112.01 23.932 170.074 23.931 59.678-.002 120.01-5.996 173.357-23.423 53.347-17.426 99.284-47.162 120.003-85.37 18.645-34.395 15.559-78.784-20.785-108.761-25.93-21.382-60.868-38.878-99.352-37.764Z"
         fill="#EAF4FC"
@@ -32,15 +32,15 @@ const Rocket = () => (
     />
     <defs>
       <filter
-        id="a"
+        id="a_rocket"
         x="3.617"
         y="5.232"
         width="593.036"
         height="278.026"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feColorMatrix
           in="SourceAlpha"
           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"

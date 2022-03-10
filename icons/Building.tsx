@@ -3,7 +3,7 @@ import React from 'react'
 const Building = () => {
   return (
     <svg fill="none" viewBox="0 0 592 278">
-      <g filter="url(#a)">
+      <g filter="url(#a_bulding)">
         <path
           d="M136.334 266.763c39.31-2.665 65.479-26.362 103.671-33.272 36.854-6.657 77.428-4.396 111.331 7.895 20.379 7.39 38.137 17.849 58.46 25.289 20.342 7.44 45.119 11.646 66.304 5.457 29.011-8.476 38.522-30.708 47.502-49.529 6.982-14.615 14.88-28.662 29.303-40.271 15.211-12.24 28.515-25.857 34.746-41.571 19.774-49.908-57.14-100.22-117.232-118.498C417.255 6.12 357.567 2.683 299.546 4.933c-59.633 2.31-119.687 10.635-172.32 30.113-52.632 19.479-97.385 50.97-116.609 89.951-17.3 35.091-12.498 79.327 24.979 107.875 26.737 20.363 62.327 36.493 100.738 33.891Z"
           fill="#EAF4FC"
@@ -19,15 +19,15 @@ const Building = () => {
       />
       <defs>
         <filter
-          id="a"
+          id="a_bulding"
           x=".02"
           y="4.312"
           width="591.798"
           height="272.81"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"

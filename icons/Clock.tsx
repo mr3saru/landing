@@ -3,7 +3,7 @@ import React from 'react'
 const Clock = () => {
   return (
     <svg fill="none" viewBox="0 0 592 273">
-      <g filter="url(#a)">
+      <g filter="url(#a_clock)">
         <path
           d="M455.485 8.358c-39.309 2.665-65.479 26.362-103.671 33.272-36.853 6.657-77.427 4.396-111.331-7.895-20.378-7.39-38.136-17.849-58.46-25.289-20.342-7.44-45.119-11.646-66.304-5.457-29.01 8.476-38.521 30.708-47.501 49.53-6.982 14.614-14.881 28.66-29.304 40.27-15.21 12.24-28.515 25.857-34.746 41.571-19.774 49.908 57.14 100.22 117.232 118.498 53.164 16.143 112.852 19.579 170.873 17.331 59.633-2.312 119.688-10.636 172.32-30.114 52.633-19.478 97.385-50.969 116.609-89.951 17.3-35.091 12.499-79.327-24.978-107.875-26.738-20.363-62.327-36.493-100.739-33.891Z"
           fill="#EAF4FC"
@@ -28,15 +28,15 @@ const Clock = () => {
       />
       <defs>
         <filter
-          id="a"
+          id="a_clock"
           x=".001"
           y="0"
           width="591.799"
           height="272.81"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
