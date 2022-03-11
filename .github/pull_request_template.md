@@ -1,7 +1,7 @@
 <!--
   Solve all conflicts before submitting.
 
-  Make a sure you have rebased your branch to wip branch.
+  Make a sure you have rebased your branch to main branch.
 
   Make a pull request and wait for approval or change request.
 
