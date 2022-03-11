@@ -70,12 +70,12 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Git flow
 
-1. Checkout to wip get all the changes
+1. Checkout to main get all the changes
 
 ```bash
-git checkout wip
+git checkout main
 git fetch origin
-git reset --hard origin/wip
+git reset --hard origin/main
 ```
 
 2. Create a new branch
@@ -86,11 +86,11 @@ git checkout -b MY-BRANCH-NAME
 
 3. Make your changes...
 
-4. Fech the wip branch and solve all conflicts
+4. Fech the main branch and solve all conflicts
 
 ```bash
-git fetch wip
-git rebase origin/wip
+git fetch main
+git rebase origin/main
 ```
 
 5. Submit a Pull Request
@@ -99,9 +99,7 @@ git rebase origin/wip
 git push origin MY-BRANCH-NAME
 ```
 
-6. Acess the pull request link and compare the changes with the `wip` branch
-
-![compare](/docs/github-compare.png)
+6. Acess the pull request link and compare the changes with the `main` branch
 
 7. Click on submit button and you will see a new branch in the pull request
 
