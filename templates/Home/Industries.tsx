@@ -103,7 +103,7 @@ const Industries = () => {
         }
       `}</style>
       <div className="title-area">
-        <Title>Industries</Title>
+        <Title>Sectors</Title>
       </div>
       <Wrapper>
         <div className="wrapper-responsive" id="industries">
@@ -130,16 +130,22 @@ const Industries = () => {
               <Cubes />
             </div>
             <p className="industries-text">
-              <b>Mr. Saru&#39;s team</b> has experience across multiple
-              industries in a variety of countries:{' '}
+              <b>Mr. Saru&#39;s team</b> has experience across multiple sectors
+              in a variety of countries:{' '}
               <b>Brazil, China, UK, Switzerland, India</b> and{' '}
               <b>New Zealand</b>.
             </p>
-            <p>
-              Banking, Blockchain, Cloud File Management Communication,
-              Corporate HR, E-commerce, Fleet Management, Task Management,
-              Software Factory.
-            </p>
+            <ul>
+              <b>Our services include:</b>
+              <li>Banking</li>
+              <li>Blockchain</li>
+              <li>Cloud File Management Communication</li>
+              <li>Corporate HR</li>
+              <li>E-commerce</li>
+              <li>Fleet Management</li>
+              <li>Task Management</li>
+              <li>Software Factory</li>
+            </ul>
           </div>
         </div>
       </Wrapper>

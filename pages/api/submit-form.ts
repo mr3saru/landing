@@ -15,7 +15,7 @@ export default async function handler(
 
   const { name, contact, message } = req.body
 
-  fetch(url, {
+  fetch(url + 'api/form', {
     method: 'POST',
     headers: {
       Accept: 'application/json, text/plain, */*',

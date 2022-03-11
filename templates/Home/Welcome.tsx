@@ -8,7 +8,7 @@ import Primary from '@components/button/Primary'
 
 const Welcome = () => {
   return (
-    <div className="wrapper-top" id="home">
+    <div className="wrapper-top">
       <style jsx>{`
         .wrapper-top {
           margin-top: 12rem;
@@ -49,7 +49,6 @@ const Welcome = () => {
           right: 8rem;
         }
 
-        // Welcome text
         .btn-text {
           font-size: var(--font-medium);
         }
@@ -90,7 +89,10 @@ const Welcome = () => {
             <br />
             <p>
               <b>
-                <Link href="/">
+                <Link
+                  href="https://meetings.hubspot.com/mr-saru"
+                  passHref={true}
+                >
                   <Primary>
                     <span className="btn-text">
                       Click here to book a meeting

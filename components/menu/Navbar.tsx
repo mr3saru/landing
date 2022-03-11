@@ -78,10 +78,10 @@ const Navbar = () => {
           <Item url="#home">HOME</Item>
         </li>
         <li onClick={() => setIsActive(false)}>
-          <Item url="#about">ABOUT</Item>
+          <Item url="#values">ABOUT</Item>
         </li>
         <li onClick={() => setIsActive(false)}>
-          <Item url="#services">SERVICES</Item>
+          <Item url="#about">SERVICES</Item>
         </li>
         <li onClick={() => setIsActive(false)}>
           <Item url="#projects">PROJECTS</Item>
