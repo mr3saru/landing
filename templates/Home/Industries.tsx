@@ -7,10 +7,17 @@ import Cubes from '@icons/Cubes'
 
 const Industries = () => {
   return (
-    <div className="wrapper-top" id="services">
+    <div className="wrapper-top">
+      <div id="services" className="section-anchor"></div>
+
       <style jsx>{`
+        .section-anchor {
+          position: absolute;
+          top: -12rem;
+        }
         .wrapper-top {
           margin-top: 12rem;
+          position: relative;
         }
         .wrapper-responsive {
           width: 100%;

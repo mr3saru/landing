@@ -8,9 +8,17 @@ import Reactive from '@icons/Reactive'
 
 const About = () => {
   return (
-    <div className="wrapper-top" id="about">
+    <div className="wrapper-top">
+      <div id="about" className="section-anchor"></div>
+
       <style jsx>{`
+        .section-anchor {
+          position: absolute;
+          top: -12rem;
+        }
+
         .wrapper-top {
+          position: relative;
           margin-top: 5rem;
         }
         .title-area {

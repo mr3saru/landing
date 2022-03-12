@@ -8,9 +8,16 @@ import Cubes from '@icons/Cubes'
 
 const Contact = () => {
   return (
-    <div className="wrapper-top" id="contact">
+    <div className="wrapper-top">
+      <div id="contact" className="section-anchor"></div>
+
       <style jsx>{`
+        .section-anchor {
+          position: absolute;
+          top: -12rem;
+        }
         .wrapper-top {
+          position: relative;
           margin-top: 12rem;
         }
         .wrapper-responsive {

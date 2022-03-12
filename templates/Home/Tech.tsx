@@ -20,9 +20,16 @@ import Vscode from '@public/images/tech/vscode.png'
 
 const Tech = () => {
   return (
-    <div className="wrapper-top" id="tech">
+    <div className="wrapper-top">
+      <div id="tech" className="section-anchor"></div>
+
       <style jsx>{`
+        .section-anchor {
+          position: absolute;
+          top: -12rem;
+        }
         .wrapper-top {
+          position: relative;
           margin-top: 5rem;
         }
         .title-area {
