@@ -104,3 +104,7 @@ git push origin MY-BRANCH-NAME
 7. Click on submit button and you will see a new branch in the pull request
 
 8. Wait for approval or change request
+
+## License
+
+This project is licensed under the [MIT](./LICENSE) License.
