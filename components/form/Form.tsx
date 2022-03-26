@@ -110,7 +110,7 @@ const Form = () => {
         required
         onChange={(e) => handleChange(e.target.value, 'message')}
       ></textarea>
-      <Primary>
+      <Primary disabled={feedback === LOADING_FEEDBACK}>
         <span className="btn-text">Send</span>
       </Primary>
       <p>{feedback}</p>
