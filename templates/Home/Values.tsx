@@ -125,7 +125,7 @@ const Values = () => {
             </p>
             <p>
               We respect and encourage inquisitive minds. We are free to express
-              our ideas and opinions.
+              our ideas and opinions
             </p>
             <br />
             <br />
